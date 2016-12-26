@@ -5,7 +5,13 @@ services:
     image: postgres:9.4-alpine
     volumes:
       - db-data:/var/lib/postgresql/data
+  app:
+    image: ruby:2.3.1-alpine
+    volumes:
+      - bundle-data:/bundle
 
 volumes:
   db-data:
+    driver: local
+  bundle-data:
     driver: local
