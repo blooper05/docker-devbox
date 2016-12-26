@@ -11,6 +11,8 @@ services:
       - bundle-data:/bundle
     depends_on:
       - db
+    links:
+      - db
 
 volumes:
   db-data:
