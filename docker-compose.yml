@@ -9,6 +9,8 @@ services:
     image: ruby:2.3.1-alpine
     volumes:
       - bundle-data:/bundle
+    depends_on:
+      - db
 
 volumes:
   db-data:
