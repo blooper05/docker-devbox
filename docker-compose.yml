@@ -2,7 +2,7 @@ version: '2.1'
 
 services:
   db:
-    image: postgres:9.4-alpine
+    image: postgres:9.6-alpine
     volumes:
       - db-data:/var/lib/postgresql/data
   app:
