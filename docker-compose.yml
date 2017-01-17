@@ -9,6 +9,7 @@ services:
     image: ruby:2.3.3-alpine
     volumes:
       - bundle-data:/bundle
+    command: bundle exec rails s -p 3000 -b 0.0.0.0
     depends_on:
       - db
     links:
