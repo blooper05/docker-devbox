@@ -1,4 +1,4 @@
-FROM ruby:2.3.3-alpine
+FROM ruby:alpine
 
 ENV BUNDLE_PATH /bundle
 
