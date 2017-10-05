@@ -183,3 +183,5 @@ $RECYCLE.BIN/
 *.lnk
 
 # End of https://www.gitignore.io/api/sublimetext,vim,visualstudiocode,jetbrains,linux,osx,windows
+
+src/
